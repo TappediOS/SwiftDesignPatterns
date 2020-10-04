@@ -21,6 +21,9 @@
 		BF5E2165252977530026AEDF /* AdapterMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E2164252977530026AEDF /* AdapterMain.swift */; };
 		BF5E216D2529785F0026AEDF /* AdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E216C2529785F0026AEDF /* AdapterTests.swift */; };
 		BF5E2176252979DA0026AEDF /* NewCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E2175252979DA0026AEDF /* NewCo.swift */; };
+		BF5E217F2529892A0026AEDF /* Doners.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E217E2529892A0026AEDF /* Doners.swift */; };
+		BF5E218325298CA50026AEDF /* TemplateMethodMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E218225298CA50026AEDF /* TemplateMethodMain.swift */; };
+		BF5E218925298E8F0026AEDF /* TemplateMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E218825298E8F0026AEDF /* TemplateMethodTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,10 @@
 		BF5E2164252977530026AEDF /* AdapterMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterMain.swift; sourceTree = "<group>"; };
 		BF5E216C2529785F0026AEDF /* AdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterTests.swift; sourceTree = "<group>"; };
 		BF5E2175252979DA0026AEDF /* NewCo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCo.swift; sourceTree = "<group>"; };
+		BF5E217E2529892A0026AEDF /* Doners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doners.swift; sourceTree = "<group>"; };
+		BF5E218225298CA50026AEDF /* TemplateMethodMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodMain.swift; sourceTree = "<group>"; };
+		BF5E218825298E8F0026AEDF /* TemplateMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodTests.swift; sourceTree = "<group>"; };
+		BF5E218C25298F910026AEDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +222,9 @@
 		BF5E210725296D1A0026AEDF /* Template Method */ = {
 			isa = PBXGroup;
 			children = (
+				BF5E217E2529892A0026AEDF /* Doners.swift */,
+				BF5E218225298CA50026AEDF /* TemplateMethodMain.swift */,
+				BF5E218C25298F910026AEDF /* README.md */,
 			);
 			path = "Template Method";
 			sourceTree = "<group>";
@@ -486,6 +496,7 @@
 		BF5E213225296EC60026AEDF /* Template Method */ = {
 			isa = PBXGroup;
 			children = (
+				BF5E218825298E8F0026AEDF /* TemplateMethodTests.swift */,
 			);
 			name = "Template Method";
 			path = "SwiftDesignPatterns/Template Method";
@@ -642,6 +653,8 @@
 				BF5E214A252970930026AEDF /* Adapter.swift in Sources */,
 				BF5E2165252977530026AEDF /* AdapterMain.swift in Sources */,
 				BF5E2150252972230026AEDF /* Employees.swift in Sources */,
+				BF5E218325298CA50026AEDF /* TemplateMethodMain.swift in Sources */,
+				BF5E217F2529892A0026AEDF /* Doners.swift in Sources */,
 				BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */,
 				BF5E215B252972A10026AEDF /* DataSources.swift in Sources */,
 				BF5E2176252979DA0026AEDF /* NewCo.swift in Sources */,
@@ -654,6 +667,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5E218925298E8F0026AEDF /* TemplateMethodTests.swift in Sources */,
 				BF5E216D2529785F0026AEDF /* AdapterTests.swift in Sources */,
 				BF5E20E525296BDA0026AEDF /* SwiftDesignPatternsTests.swift in Sources */,
 				BF5E214225296F9B0026AEDF /* IteratorTest.swift in Sources */,
