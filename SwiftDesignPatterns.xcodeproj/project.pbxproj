@@ -12,6 +12,8 @@
 		BF5E20D625296BDA0026AEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5E20D525296BDA0026AEDF /* Assets.xcassets */; };
 		BF5E20D925296BDA0026AEDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5E20D725296BDA0026AEDF /* Main.storyboard */; };
 		BF5E20E525296BDA0026AEDF /* SwiftDesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20E425296BDA0026AEDF /* SwiftDesignPatternsTests.swift */; };
+		BF5E213A25296F910026AEDF /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E213925296F910026AEDF /* Iterator.swift */; };
+		BF5E214225296F9B0026AEDF /* IteratorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E214125296F9B0026AEDF /* IteratorTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		BF5E20E625296BDA0026AEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5E20EB25296BDA0026AEDF /* SwiftDesignPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDesignPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5E20F125296BDA0026AEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5E213925296F910026AEDF /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		BF5E214125296F9B0026AEDF /* IteratorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +190,7 @@
 		BF5E210325296CE40026AEDF /* Iterator */ = {
 			isa = PBXGroup;
 			children = (
+				BF5E213925296F910026AEDF /* Iterator.swift */,
 			);
 			path = Iterator;
 			sourceTree = "<group>";
@@ -427,6 +432,7 @@
 		BF5E212B25296EC60026AEDF /* Iterator */ = {
 			isa = PBXGroup;
 			children = (
+				BF5E214125296F9B0026AEDF /* IteratorTest.swift */,
 			);
 			name = Iterator;
 			path = SwiftDesignPatterns/Iterator;
@@ -665,6 +671,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5E213A25296F910026AEDF /* Iterator.swift in Sources */,
 				BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */,
 				BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */,
 			);
@@ -675,6 +682,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5E20E525296BDA0026AEDF /* SwiftDesignPatternsTests.swift in Sources */,
+				BF5E214225296F9B0026AEDF /* IteratorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
