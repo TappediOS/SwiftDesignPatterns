@@ -20,6 +20,7 @@
 		BF5E21602529753A0026AEDF /* EmployeeSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E215F2529753A0026AEDF /* EmployeeSearch.swift */; };
 		BF5E2165252977530026AEDF /* AdapterMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E2164252977530026AEDF /* AdapterMain.swift */; };
 		BF5E216D2529785F0026AEDF /* AdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E216C2529785F0026AEDF /* AdapterTests.swift */; };
+		BF5E2176252979DA0026AEDF /* NewCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E2175252979DA0026AEDF /* NewCo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		BF5E215F2529753A0026AEDF /* EmployeeSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeSearch.swift; sourceTree = "<group>"; };
 		BF5E2164252977530026AEDF /* AdapterMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterMain.swift; sourceTree = "<group>"; };
 		BF5E216C2529785F0026AEDF /* AdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterTests.swift; sourceTree = "<group>"; };
+		BF5E2175252979DA0026AEDF /* NewCo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 				BF5E215A252972A10026AEDF /* DataSources.swift */,
 				BF5E215F2529753A0026AEDF /* EmployeeSearch.swift */,
 				BF5E2164252977530026AEDF /* AdapterMain.swift */,
+				BF5E2175252979DA0026AEDF /* NewCo.swift */,
 			);
 			path = Adapter;
 			sourceTree = "<group>";
@@ -641,6 +644,7 @@
 				BF5E2150252972230026AEDF /* Employees.swift in Sources */,
 				BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */,
 				BF5E215B252972A10026AEDF /* DataSources.swift in Sources */,
+				BF5E2176252979DA0026AEDF /* NewCo.swift in Sources */,
 				BF5E21602529753A0026AEDF /* EmployeeSearch.swift in Sources */,
 				BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */,
 			);
