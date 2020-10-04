@@ -60,6 +60,7 @@
 		BF5E217E2529892A0026AEDF /* Doners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doners.swift; sourceTree = "<group>"; };
 		BF5E218225298CA50026AEDF /* TemplateMethodMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodMain.swift; sourceTree = "<group>"; };
 		BF5E218825298E8F0026AEDF /* TemplateMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodTests.swift; sourceTree = "<group>"; };
+		BF5E218C25298F910026AEDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +224,7 @@
 			children = (
 				BF5E217E2529892A0026AEDF /* Doners.swift */,
 				BF5E218225298CA50026AEDF /* TemplateMethodMain.swift */,
+				BF5E218C25298F910026AEDF /* README.md */,
 			);
 			path = "Template Method";
 			sourceTree = "<group>";
