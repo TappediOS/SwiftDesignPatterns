@@ -30,7 +30,7 @@ struct AdapterMain {
         for e in search.employees {
             results.append(e.name)
         }
-        
+        
         return results
     }
 }
