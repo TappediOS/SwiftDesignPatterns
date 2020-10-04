@@ -8,19 +8,30 @@
 
 
 struct AdapterMain {
-    static func main() {
+    static func main() -> [String] {
         let search = SearchTool(dataSources: SalesDataSource(), DevelopmentDataSource())
-
+        var results: [String] = Array()
+        
         print("=== List ===")
 
         for e in search.employees {
-            print("Name: \(e.name)")
+            results.append(e.name)
         }
 
-        print("=== Search ===")
-        for e in search.search(text: "VP", type: .title) {
-            print("Name \(e.name), Title: \(e.title)")
+        return results
+    }
+    
+    static func adapter() -> [String] {
+        let search = SearchTool(dataSources: SalesDataSource(), DevelopmentDataSource(), NewCoDirectory())
+        var results: [String] = Array()
+        
+        print("=== List ===")
+
+        for e in search.employees {
+            results.append(e.name)
         }
+
+        return results
     }
 }
 

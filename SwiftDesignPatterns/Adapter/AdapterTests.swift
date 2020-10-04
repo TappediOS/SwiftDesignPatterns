@@ -19,8 +19,14 @@ class AdapterTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testEx() {
-        AdapterMain.main()
+    func testMain() {
+        let exp = ["Alice", "Bob", "Joe", "Pepe"]
+        XCTAssertEqual(AdapterMain.main(), exp)
+    }
+    
+    func testAdapter() {
+        let exp = ["Alice", "Bob", "Joe", "Pepe", "Grate", "Hana"].sorted()
+        XCTAssertEqual(AdapterMain.adapter().sorted(), exp)
     }
 
 }
