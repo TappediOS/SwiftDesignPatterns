@@ -12,7 +12,6 @@
 		BF5E20D625296BDA0026AEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5E20D525296BDA0026AEDF /* Assets.xcassets */; };
 		BF5E20D925296BDA0026AEDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5E20D725296BDA0026AEDF /* Main.storyboard */; };
 		BF5E20E525296BDA0026AEDF /* SwiftDesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20E425296BDA0026AEDF /* SwiftDesignPatternsTests.swift */; };
-		BF5E20F025296BDA0026AEDF /* SwiftDesignPatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20EF25296BDA0026AEDF /* SwiftDesignPatternsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		BF5E20E425296BDA0026AEDF /* SwiftDesignPatternsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDesignPatternsTests.swift; sourceTree = "<group>"; };
 		BF5E20E625296BDA0026AEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5E20EB25296BDA0026AEDF /* SwiftDesignPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDesignPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF5E20EF25296BDA0026AEDF /* SwiftDesignPatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDesignPatternsUITests.swift; sourceTree = "<group>"; };
 		BF5E20F125296BDA0026AEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,10 +94,31 @@
 		BF5E20D025296BD90026AEDF /* SwiftDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				BF5E20D125296BD90026AEDF /* AppDelegate.swift */,
-				BF5E20D325296BD90026AEDF /* ViewController.swift */,
-				BF5E20D525296BDA0026AEDF /* Assets.xcassets */,
-				BF5E20D725296BDA0026AEDF /* Main.storyboard */,
+				BF5E210625296D190026AEDF /* Abstract Factory */,
+				BF5E210425296D030026AEDF /* Adapter */,
+				BF5E210C25296D1B0026AEDF /* Bridge */,
+				BF5E210B25296D1B0026AEDF /* Builder */,
+				BF5E211125296DA20026AEDF /* Chain of Responsibility */,
+				BF5E210E25296DA00026AEDF /* Command */,
+				BF5E210525296D180026AEDF /* Composite */,
+				BF5E210F25296DA10026AEDF /* Decorator */,
+				BF5E211225296DA20026AEDF /* Facade */,
+				BF5E210825296D1A0026AEDF /* Factory Method */,
+				BF5E211825296DA40026AEDF /* Flyweight */,
+				BF5E211A25296E4D0026AEDF /* Interpreter */,
+				BF5E210325296CE40026AEDF /* Iterator */,
+				BF5E211425296DA30026AEDF /* Mediator */,
+				BF5E211625296DA30026AEDF /* Memento */,
+				BF5E211525296DA30026AEDF /* Observer */,
+				BF5E210A25296D1A0026AEDF /* Prototype */,
+				BF5E211925296DA40026AEDF /* Proxy */,
+				BF5E210925296D1A0026AEDF /* Singleton */,
+				BF5E211725296DA30026AEDF /* State */,
+				BF5E210D25296D880026AEDF /* Strategy */,
+				BF5E210725296D1A0026AEDF /* Template Method */,
+				BF5E211025296DA10026AEDF /* Visitor */,
+				BF5E210025296BEC0026AEDF /* NoUse */,
+				BF5E210225296C290026AEDF /* Extentions */,
 				BF5E20DA25296BDA0026AEDF /* Info.plist */,
 				BF5E20DB25296BDA0026AEDF /* SwiftDesignPatterns.entitlements */,
 			);
@@ -109,6 +128,29 @@
 		BF5E20E325296BDA0026AEDF /* SwiftDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				BF5E213025296EC60026AEDF /* Abstract Factory */,
+				BF5E212C25296EC60026AEDF /* Adapter */,
+				BF5E212A25296EC60026AEDF /* Bridge */,
+				BF5E213525296EC60026AEDF /* Builder */,
+				BF5E212D25296EC60026AEDF /* Chain of Responsibility */,
+				BF5E212325296EC60026AEDF /* Command */,
+				BF5E213625296EC60026AEDF /* Composite */,
+				BF5E213425296EC60026AEDF /* Decorator */,
+				BF5E213725296EC70026AEDF /* Facade */,
+				BF5E213125296EC60026AEDF /* Factory Method */,
+				BF5E212925296EC60026AEDF /* Flyweight */,
+				BF5E212625296EC60026AEDF /* Interpreter */,
+				BF5E212B25296EC60026AEDF /* Iterator */,
+				BF5E213325296EC60026AEDF /* Mediator */,
+				BF5E212725296EC60026AEDF /* Memento */,
+				BF5E212125296EC60026AEDF /* Observer */,
+				BF5E212F25296EC60026AEDF /* Prototype */,
+				BF5E212525296EC60026AEDF /* Proxy */,
+				BF5E212825296EC60026AEDF /* Singleton */,
+				BF5E212425296EC60026AEDF /* State */,
+				BF5E212225296EC60026AEDF /* Strategy */,
+				BF5E213225296EC60026AEDF /* Template Method */,
+				BF5E212E25296EC60026AEDF /* Visitor */,
 				BF5E20E425296BDA0026AEDF /* SwiftDesignPatternsTests.swift */,
 				BF5E20E625296BDA0026AEDF /* Info.plist */,
 			);
@@ -118,10 +160,380 @@
 		BF5E20EE25296BDA0026AEDF /* SwiftDesignPatternsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BF5E20EF25296BDA0026AEDF /* SwiftDesignPatternsUITests.swift */,
 				BF5E20F125296BDA0026AEDF /* Info.plist */,
 			);
 			path = SwiftDesignPatternsUITests;
+			sourceTree = "<group>";
+		};
+		BF5E210025296BEC0026AEDF /* NoUse */ = {
+			isa = PBXGroup;
+			children = (
+				BF5E20D125296BD90026AEDF /* AppDelegate.swift */,
+				BF5E20D325296BD90026AEDF /* ViewController.swift */,
+				BF5E20D525296BDA0026AEDF /* Assets.xcassets */,
+				BF5E20D725296BDA0026AEDF /* Main.storyboard */,
+			);
+			path = NoUse;
+			sourceTree = "<group>";
+		};
+		BF5E210225296C290026AEDF /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		BF5E210325296CE40026AEDF /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		BF5E210425296D030026AEDF /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		BF5E210525296D180026AEDF /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		BF5E210625296D190026AEDF /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		BF5E210725296D1A0026AEDF /* Template Method */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Template Method";
+			sourceTree = "<group>";
+		};
+		BF5E210825296D1A0026AEDF /* Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Factory Method";
+			sourceTree = "<group>";
+		};
+		BF5E210925296D1A0026AEDF /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		BF5E210A25296D1A0026AEDF /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		BF5E210B25296D1B0026AEDF /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		BF5E210C25296D1B0026AEDF /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		BF5E210D25296D880026AEDF /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		BF5E210E25296DA00026AEDF /* Command */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		BF5E210F25296DA10026AEDF /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		BF5E211025296DA10026AEDF /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		BF5E211125296DA20026AEDF /* Chain of Responsibility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Chain of Responsibility";
+			sourceTree = "<group>";
+		};
+		BF5E211225296DA20026AEDF /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		BF5E211425296DA30026AEDF /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		BF5E211525296DA30026AEDF /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		BF5E211625296DA30026AEDF /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		BF5E211725296DA30026AEDF /* State */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		BF5E211825296DA40026AEDF /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		BF5E211925296DA40026AEDF /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		BF5E211A25296E4D0026AEDF /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interpreter;
+			sourceTree = "<group>";
+		};
+		BF5E212125296EC60026AEDF /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Observer;
+			path = SwiftDesignPatterns/Observer;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212225296EC60026AEDF /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Strategy;
+			path = SwiftDesignPatterns/Strategy;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212325296EC60026AEDF /* Command */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Command;
+			path = SwiftDesignPatterns/Command;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212425296EC60026AEDF /* State */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = State;
+			path = SwiftDesignPatterns/State;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212525296EC60026AEDF /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Proxy;
+			path = SwiftDesignPatterns/Proxy;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212625296EC60026AEDF /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Interpreter;
+			path = SwiftDesignPatterns/Interpreter;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212725296EC60026AEDF /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Memento;
+			path = SwiftDesignPatterns/Memento;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212825296EC60026AEDF /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Singleton;
+			path = SwiftDesignPatterns/Singleton;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212925296EC60026AEDF /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Flyweight;
+			path = SwiftDesignPatterns/Flyweight;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212A25296EC60026AEDF /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Bridge;
+			path = SwiftDesignPatterns/Bridge;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212B25296EC60026AEDF /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Iterator;
+			path = SwiftDesignPatterns/Iterator;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212C25296EC60026AEDF /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Adapter;
+			path = SwiftDesignPatterns/Adapter;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212D25296EC60026AEDF /* Chain of Responsibility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Chain of Responsibility";
+			path = "SwiftDesignPatterns/Chain of Responsibility";
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212E25296EC60026AEDF /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Visitor;
+			path = SwiftDesignPatterns/Visitor;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E212F25296EC60026AEDF /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Prototype;
+			path = SwiftDesignPatterns/Prototype;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E213025296EC60026AEDF /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Abstract Factory";
+			path = "SwiftDesignPatterns/Abstract Factory";
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E213125296EC60026AEDF /* Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Factory Method";
+			path = "SwiftDesignPatterns/Factory Method";
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E213225296EC60026AEDF /* Template Method */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Template Method";
+			path = "SwiftDesignPatterns/Template Method";
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E213325296EC60026AEDF /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Mediator;
+			path = SwiftDesignPatterns/Mediator;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E213425296EC60026AEDF /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Decorator;
+			path = SwiftDesignPatterns/Decorator;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E213525296EC60026AEDF /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Builder;
+			path = SwiftDesignPatterns/Builder;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E213625296EC60026AEDF /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Composite;
+			path = SwiftDesignPatterns/Composite;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E213725296EC70026AEDF /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				BF5E213825296EC70026AEDF /* n */,
+			);
+			name = Facade;
+			path = SwiftDesignPatterns/Facade;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5E213825296EC70026AEDF /* n */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = n;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +682,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF5E20F025296BDA0026AEDF /* SwiftDesignPatternsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
