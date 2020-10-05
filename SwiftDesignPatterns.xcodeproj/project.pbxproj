@@ -28,6 +28,8 @@
 		BF5E21962529B75D0026AEDF /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21952529B75D0026AEDF /* Food.swift */; };
 		BF5E219A2529B9A80026AEDF /* MainBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21992529B9A80026AEDF /* MainBuilder.swift */; };
 		BF5E219E2529BA170026AEDF /* BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E219D2529BA170026AEDF /* BuilderTests.swift */; };
+		BF5E21A7252AC5060026AEDF /* RentalCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21A6252AC5060026AEDF /* RentalCar.swift */; };
+		BF5E21AB252AC74C0026AEDF /* CarSelecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21AA252AC74C0026AEDF /* CarSelecter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,9 @@
 		BF5E21992529B9A80026AEDF /* MainBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBuilder.swift; sourceTree = "<group>"; };
 		BF5E219D2529BA170026AEDF /* BuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderTests.swift; sourceTree = "<group>"; };
 		BF5E21A12529BAF40026AEDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF5E21A6252AC5060026AEDF /* RentalCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalCar.swift; sourceTree = "<group>"; };
+		BF5E21AA252AC74C0026AEDF /* CarSelecter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSelecter.swift; sourceTree = "<group>"; };
+		BF5E21AE252AC9430026AEDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +246,9 @@
 		BF5E210825296D1A0026AEDF /* Factory Method */ = {
 			isa = PBXGroup;
 			children = (
+				BF5E21A6252AC5060026AEDF /* RentalCar.swift */,
+				BF5E21AA252AC74C0026AEDF /* CarSelecter.swift */,
+				BF5E21AE252AC9430026AEDF /* README.md */,
 			);
 			path = "Factory Method";
 			sourceTree = "<group>";
@@ -666,11 +674,13 @@
 				BF5E213A25296F910026AEDF /* Iterator.swift in Sources */,
 				BF5E214A252970930026AEDF /* Adapter.swift in Sources */,
 				BF5E2165252977530026AEDF /* AdapterMain.swift in Sources */,
+				BF5E21A7252AC5060026AEDF /* RentalCar.swift in Sources */,
 				BF5E2150252972230026AEDF /* Employees.swift in Sources */,
 				BF5E218325298CA50026AEDF /* TemplateMethodMain.swift in Sources */,
 				BF5E217F2529892A0026AEDF /* Doners.swift in Sources */,
 				BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */,
 				BF5E215B252972A10026AEDF /* DataSources.swift in Sources */,
+				BF5E21AB252AC74C0026AEDF /* CarSelecter.swift in Sources */,
 				BF5E2176252979DA0026AEDF /* NewCo.swift in Sources */,
 				BF5E21962529B75D0026AEDF /* Food.swift in Sources */,
 				BF5E219A2529B9A80026AEDF /* MainBuilder.swift in Sources */,
