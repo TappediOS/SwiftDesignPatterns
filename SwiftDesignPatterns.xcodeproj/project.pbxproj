@@ -83,6 +83,7 @@
 		BF5E21B5252AD0530026AEDF /* Backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup.swift; sourceTree = "<group>"; };
 		BF5E21B9252AD15E0026AEDF /* MainSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSingleton.swift; sourceTree = "<group>"; };
 		BF5E21BD252AD2810026AEDF /* SingletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTests.swift; sourceTree = "<group>"; };
+		BF5E21C1252AD3220026AEDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,6 +268,7 @@
 				BF5E21B1252ACF290026AEDF /* Logger.swift */,
 				BF5E21B5252AD0530026AEDF /* Backup.swift */,
 				BF5E21B9252AD15E0026AEDF /* MainSingleton.swift */,
+				BF5E21C1252AD3220026AEDF /* README.md */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
