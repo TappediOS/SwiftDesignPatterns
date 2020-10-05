@@ -30,6 +30,10 @@
 		BF5E219E2529BA170026AEDF /* BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E219D2529BA170026AEDF /* BuilderTests.swift */; };
 		BF5E21A7252AC5060026AEDF /* RentalCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21A6252AC5060026AEDF /* RentalCar.swift */; };
 		BF5E21AB252AC74C0026AEDF /* CarSelecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21AA252AC74C0026AEDF /* CarSelecter.swift */; };
+		BF5E21B2252ACF290026AEDF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21B1252ACF290026AEDF /* Logger.swift */; };
+		BF5E21B6252AD0540026AEDF /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21B5252AD0530026AEDF /* Backup.swift */; };
+		BF5E21BA252AD15E0026AEDF /* MainSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21B9252AD15E0026AEDF /* MainSingleton.swift */; };
+		BF5E21BE252AD2810026AEDF /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21BD252AD2810026AEDF /* SingletonTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +79,11 @@
 		BF5E21A6252AC5060026AEDF /* RentalCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalCar.swift; sourceTree = "<group>"; };
 		BF5E21AA252AC74C0026AEDF /* CarSelecter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSelecter.swift; sourceTree = "<group>"; };
 		BF5E21AE252AC9430026AEDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF5E21B1252ACF290026AEDF /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		BF5E21B5252AD0530026AEDF /* Backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup.swift; sourceTree = "<group>"; };
+		BF5E21B9252AD15E0026AEDF /* MainSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSingleton.swift; sourceTree = "<group>"; };
+		BF5E21BD252AD2810026AEDF /* SingletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTests.swift; sourceTree = "<group>"; };
+		BF5E21C1252AD3220026AEDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +265,10 @@
 		BF5E210925296D1A0026AEDF /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				BF5E21B1252ACF290026AEDF /* Logger.swift */,
+				BF5E21B5252AD0530026AEDF /* Backup.swift */,
+				BF5E21B9252AD15E0026AEDF /* MainSingleton.swift */,
+				BF5E21C1252AD3220026AEDF /* README.md */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -435,6 +448,7 @@
 		BF5E212825296EC60026AEDF /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				BF5E21BD252AD2810026AEDF /* SingletonTests.swift */,
 			);
 			name = Singleton;
 			path = SwiftDesignPatterns/Singleton;
@@ -678,13 +692,16 @@
 				BF5E2150252972230026AEDF /* Employees.swift in Sources */,
 				BF5E218325298CA50026AEDF /* TemplateMethodMain.swift in Sources */,
 				BF5E217F2529892A0026AEDF /* Doners.swift in Sources */,
+				BF5E21BA252AD15E0026AEDF /* MainSingleton.swift in Sources */,
 				BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */,
+				BF5E21B2252ACF290026AEDF /* Logger.swift in Sources */,
 				BF5E215B252972A10026AEDF /* DataSources.swift in Sources */,
 				BF5E21AB252AC74C0026AEDF /* CarSelecter.swift in Sources */,
 				BF5E2176252979DA0026AEDF /* NewCo.swift in Sources */,
 				BF5E21962529B75D0026AEDF /* Food.swift in Sources */,
 				BF5E219A2529B9A80026AEDF /* MainBuilder.swift in Sources */,
 				BF5E21602529753A0026AEDF /* EmployeeSearch.swift in Sources */,
+				BF5E21B6252AD0540026AEDF /* Backup.swift in Sources */,
 				BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */,
 				BF5E21922529B6F90026AEDF /* Builder.swift in Sources */,
 			);
@@ -695,6 +712,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5E218925298E8F0026AEDF /* TemplateMethodTests.swift in Sources */,
+				BF5E21BE252AD2810026AEDF /* SingletonTests.swift in Sources */,
 				BF5E216D2529785F0026AEDF /* AdapterTests.swift in Sources */,
 				BF5E219E2529BA170026AEDF /* BuilderTests.swift in Sources */,
 				BF5E20E525296BDA0026AEDF /* SwiftDesignPatternsTests.swift in Sources */,
