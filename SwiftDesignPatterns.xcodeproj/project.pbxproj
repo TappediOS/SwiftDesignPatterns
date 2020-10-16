@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF56A1712539D66C00D7E957 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1702539D66C00D7E957 /* AbstractFactory.swift */; };
 		BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D125296BD90026AEDF /* AppDelegate.swift */; };
 		BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D325296BD90026AEDF /* ViewController.swift */; };
 		BF5E20D625296BDA0026AEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5E20D525296BDA0026AEDF /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF56A1702539D66C00D7E957 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		BF5E20CE25296BD80026AEDF /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5E20D125296BD90026AEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5E20D325296BD90026AEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 		BF5E210625296D190026AEDF /* Abstract Factory */ = {
 			isa = PBXGroup;
 			children = (
+				BF56A1702539D66C00D7E957 /* AbstractFactory.swift */,
 			);
 			path = "Abstract Factory";
 			sourceTree = "<group>";
@@ -697,6 +700,7 @@
 				BF5E21B2252ACF290026AEDF /* Logger.swift in Sources */,
 				BF5E215B252972A10026AEDF /* DataSources.swift in Sources */,
 				BF5E21AB252AC74C0026AEDF /* CarSelecter.swift in Sources */,
+				BF56A1712539D66C00D7E957 /* AbstractFactory.swift in Sources */,
 				BF5E2176252979DA0026AEDF /* NewCo.swift in Sources */,
 				BF5E21962529B75D0026AEDF /* Food.swift in Sources */,
 				BF5E219A2529B9A80026AEDF /* MainBuilder.swift in Sources */,
