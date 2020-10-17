@@ -10,6 +10,7 @@
 		BF56A1712539D66C00D7E957 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1702539D66C00D7E957 /* AbstractFactory.swift */; };
 		BF56A175253ADA1500D7E957 /* Floorplans.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A174253ADA1500D7E957 /* Floorplans.swift */; };
 		BF56A179253ADB4D00D7E957 /* Suspension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A178253ADB4D00D7E957 /* Suspension.swift */; };
+		BF56A17D253ADC2900D7E957 /* Drivetrans.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A17C253ADC2900D7E957 /* Drivetrans.swift */; };
 		BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D125296BD90026AEDF /* AppDelegate.swift */; };
 		BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D325296BD90026AEDF /* ViewController.swift */; };
 		BF5E20D625296BDA0026AEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5E20D525296BDA0026AEDF /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		BF56A1702539D66C00D7E957 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		BF56A174253ADA1500D7E957 /* Floorplans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floorplans.swift; sourceTree = "<group>"; };
 		BF56A178253ADB4D00D7E957 /* Suspension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suspension.swift; sourceTree = "<group>"; };
+		BF56A17C253ADC2900D7E957 /* Drivetrans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drivetrans.swift; sourceTree = "<group>"; };
 		BF5E20CE25296BD80026AEDF /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5E20D125296BD90026AEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5E20D325296BD90026AEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 				BF56A1702539D66C00D7E957 /* AbstractFactory.swift */,
 				BF56A174253ADA1500D7E957 /* Floorplans.swift */,
 				BF56A178253ADB4D00D7E957 /* Suspension.swift */,
+				BF56A17C253ADC2900D7E957 /* Drivetrans.swift */,
 			);
 			path = "Abstract Factory";
 			sourceTree = "<group>";
@@ -695,6 +698,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF56A175253ADA1500D7E957 /* Floorplans.swift in Sources */,
+				BF56A17D253ADC2900D7E957 /* Drivetrans.swift in Sources */,
 				BF5E213A25296F910026AEDF /* Iterator.swift in Sources */,
 				BF5E214A252970930026AEDF /* Adapter.swift in Sources */,
 				BF5E2165252977530026AEDF /* AdapterMain.swift in Sources */,
