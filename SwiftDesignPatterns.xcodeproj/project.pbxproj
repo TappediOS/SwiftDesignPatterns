@@ -12,6 +12,7 @@
 		BF56A179253ADB4D00D7E957 /* Suspension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A178253ADB4D00D7E957 /* Suspension.swift */; };
 		BF56A17D253ADC2900D7E957 /* Drivetrans.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A17C253ADC2900D7E957 /* Drivetrans.swift */; };
 		BF56A181253ADD3600D7E957 /* CarParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A180253ADD3600D7E957 /* CarParts.swift */; };
+		BF56A185253ADE6700D7E957 /* AbstractFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A184253ADE6700D7E957 /* AbstractFactoryTests.swift */; };
 		BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D125296BD90026AEDF /* AppDelegate.swift */; };
 		BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D325296BD90026AEDF /* ViewController.swift */; };
 		BF5E20D625296BDA0026AEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5E20D525296BDA0026AEDF /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		BF56A178253ADB4D00D7E957 /* Suspension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suspension.swift; sourceTree = "<group>"; };
 		BF56A17C253ADC2900D7E957 /* Drivetrans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drivetrans.swift; sourceTree = "<group>"; };
 		BF56A180253ADD3600D7E957 /* CarParts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarParts.swift; sourceTree = "<group>"; };
+		BF56A184253ADE6700D7E957 /* AbstractFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryTests.swift; sourceTree = "<group>"; };
 		BF5E20CE25296BD80026AEDF /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5E20D125296BD90026AEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5E20D325296BD90026AEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -530,6 +532,7 @@
 		BF5E213025296EC60026AEDF /* Abstract Factory */ = {
 			isa = PBXGroup;
 			children = (
+				BF56A184253ADE6700D7E957 /* AbstractFactoryTests.swift */,
 			);
 			name = "Abstract Factory";
 			path = "SwiftDesignPatterns/Abstract Factory";
@@ -733,6 +736,7 @@
 			files = (
 				BF5E218925298E8F0026AEDF /* TemplateMethodTests.swift in Sources */,
 				BF5E21BE252AD2810026AEDF /* SingletonTests.swift in Sources */,
+				BF56A185253ADE6700D7E957 /* AbstractFactoryTests.swift in Sources */,
 				BF5E216D2529785F0026AEDF /* AdapterTests.swift in Sources */,
 				BF5E219E2529BA170026AEDF /* BuilderTests.swift in Sources */,
 				BF5E20E525296BDA0026AEDF /* SwiftDesignPatternsTests.swift in Sources */,
