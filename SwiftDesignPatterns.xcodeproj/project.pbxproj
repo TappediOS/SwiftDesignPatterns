@@ -59,6 +59,7 @@
 		BF56A17C253ADC2900D7E957 /* Drivetrans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drivetrans.swift; sourceTree = "<group>"; };
 		BF56A180253ADD3600D7E957 /* CarParts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarParts.swift; sourceTree = "<group>"; };
 		BF56A184253ADE6700D7E957 /* AbstractFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryTests.swift; sourceTree = "<group>"; };
+		BF56A188253AE1A500D7E957 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF5E20CE25296BD80026AEDF /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5E20D125296BD90026AEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5E20D325296BD90026AEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -255,6 +256,7 @@
 				BF56A178253ADB4D00D7E957 /* Suspension.swift */,
 				BF56A17C253ADC2900D7E957 /* Drivetrans.swift */,
 				BF56A180253ADD3600D7E957 /* CarParts.swift */,
+				BF56A188253AE1A500D7E957 /* README.md */,
 			);
 			path = "Abstract Factory";
 			sourceTree = "<group>";
