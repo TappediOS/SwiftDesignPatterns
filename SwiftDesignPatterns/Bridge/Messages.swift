@@ -44,3 +44,8 @@ class EncryptedMessage: Message {
     }
 }
 
+class PriorityMessage: ClearMessage {
+    override var contentToSend: String {
+        return "Important: " + super.contentToSend
+    }
+}

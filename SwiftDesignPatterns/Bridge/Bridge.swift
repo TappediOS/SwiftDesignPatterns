@@ -5,7 +5,7 @@
 //  Created by jun on 2020/10/18.
 //
 
-class ComunicatorBridge: ClearMessageChannel, SecureMessageChannel {
+class ComunicatorBridge: ClearMessageChannel, SecureMessageChannel, PriorityMessageChannel {
     private var channel: Channel
     
     init(channel: Channel) {
@@ -20,6 +20,11 @@ class ComunicatorBridge: ClearMessageChannel, SecureMessageChannel {
     func sendEncryptedMessage(encryptedText: String) -> String {
         let message = EncryptedMessage(message: encryptedText)
         return self.sendMessage(message)
+    }
+    
+    func sendPriorityMessage(message: String) -> String {
+        let message = PriorityMessage(message: message)
+        return sendMessage(message)
     }
     
     private func sendMessage(_ message: Message) -> String {

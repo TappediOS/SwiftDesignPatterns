@@ -16,20 +16,14 @@ class Landline: Channel {
     }
 }
 
-class SecureLandline: Channel {
-    func sendMessage(message: Message) -> String {
-        return "Secure Landline: " + message.contentToSend
-    }
-}
-
 class Wireless: Channel {
     func sendMessage(message: Message) -> String {
         return "Wireless: " + message.contentToSend
     }
 }
 
-class SecureWireless: Channel {
+class Satellite: Channel {
     func sendMessage(message: Message) -> String {
-        return "Secure Wireless: " + message.contentToSend
+        return "Sattellite: " + message.contentToSend
     }
 }
