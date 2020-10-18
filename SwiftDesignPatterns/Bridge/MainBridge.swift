@@ -10,9 +10,10 @@ import Foundation
 
 class MainBridge {
     static func main() -> [String] {
-        var clearChannel = Landline()
-        var secureChannel = SecureLandline()
-        var comms = Communicator(clearChannel: clearChannel, secureChannel: secureChannel)
+        
+        let bridge = ComunicatorBridge(channel: Landline())
+        let comms = Communicator(clearChannel: bridge, secureChannel: bridge)
+        
         
         return [comms.sendClearTextMessage(message: "Hello"), comms.sendSesureMessage(message: "this is secure")]
     }

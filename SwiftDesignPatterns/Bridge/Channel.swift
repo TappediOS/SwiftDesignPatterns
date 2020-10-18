@@ -6,26 +6,30 @@
 //
 
 
-class Landline: ClearMessageChannel {
-    func send(message: String) -> String {
-        return "LandLine: "  + message
+protocol Channel {
+    func sendMessage(message: Message) -> String
+}
+
+class Landline: Channel {
+    func sendMessage(message: Message) -> String {
+        return "LandLine: "  + message.contentToSend
     }
 }
 
-class SecureLandline: SecureMessageChannel {
-    func sendEncryptedMessage(encryptedText: String) -> String {
-        return "Secure Landline: " + encryptedText
+class SecureLandline: Channel {
+    func sendMessage(message: Message) -> String {
+        return "Secure Landline: " + message.contentToSend
     }
 }
 
-class Wireless: ClearMessageChannel {
-    func send(message: String) -> String {
-        return "Wireless: " + message
+class Wireless: Channel {
+    func sendMessage(message: Message) -> String {
+        return "Wireless: " + message.contentToSend
     }
 }
 
-class SecureWireless: SecureMessageChannel {
-    func sendEncryptedMessage(encryptedText: String) -> String {
-        return "Secure Wireless: " + encryptedText
+class SecureWireless: Channel {
+    func sendMessage(message: Message) -> String {
+        return "Secure Wireless: " + message.contentToSend
     }
 }

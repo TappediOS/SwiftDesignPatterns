@@ -20,7 +20,7 @@ class BridgeTests: XCTestCase {
     }
 
     func testMain() {
-        let exp = ["LandLine: Hello", "Secure Landline: this is secure"]
+        let exp = ["LandLine: Hello", "LandLine: eruces si siht"]
         
         XCTAssertEqual(MainBridge.main(), exp)
     }
