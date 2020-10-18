@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF56A18C253C1D2000D7E957 /* Comms.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A18B253C1D2000D7E957 /* Comms.swift */; };
+		BF56A190253C1E1100D7E957 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A18F253C1E1100D7E957 /* Channel.swift */; };
+		BF56A194253C1EA300D7E957 /* MainBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A193253C1EA300D7E957 /* MainBridge.swift */; };
+		BF56A198253C1F1F00D7E957 /* BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A197253C1F1F00D7E957 /* BridgeTests.swift */; };
 		BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D125296BD90026AEDF /* AppDelegate.swift */; };
 		BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D325296BD90026AEDF /* ViewController.swift */; };
 		BF5E20D625296BDA0026AEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5E20D525296BDA0026AEDF /* Assets.xcassets */; };
@@ -47,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF56A18B253C1D2000D7E957 /* Comms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comms.swift; sourceTree = "<group>"; };
+		BF56A18F253C1E1100D7E957 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		BF56A193253C1EA300D7E957 /* MainBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBridge.swift; sourceTree = "<group>"; };
+		BF56A197253C1F1F00D7E957 /* BridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeTests.swift; sourceTree = "<group>"; };
 		BF5E20CE25296BD80026AEDF /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5E20D125296BD90026AEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5E20D325296BD90026AEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -294,6 +302,9 @@
 		BF5E210C25296D1B0026AEDF /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
+				BF56A18B253C1D2000D7E957 /* Comms.swift */,
+				BF56A18F253C1E1100D7E957 /* Channel.swift */,
+				BF56A193253C1EA300D7E957 /* MainBridge.swift */,
 			);
 			path = Bridge;
 			sourceTree = "<group>";
@@ -465,6 +476,7 @@
 		BF5E212A25296EC60026AEDF /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
+				BF56A197253C1F1F00D7E957 /* BridgeTests.swift */,
 			);
 			name = Bridge;
 			path = SwiftDesignPatterns/Bridge;
@@ -692,6 +704,7 @@
 				BF5E2150252972230026AEDF /* Employees.swift in Sources */,
 				BF5E218325298CA50026AEDF /* TemplateMethodMain.swift in Sources */,
 				BF5E217F2529892A0026AEDF /* Doners.swift in Sources */,
+				BF56A190253C1E1100D7E957 /* Channel.swift in Sources */,
 				BF5E21BA252AD15E0026AEDF /* MainSingleton.swift in Sources */,
 				BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */,
 				BF5E21B2252ACF290026AEDF /* Logger.swift in Sources */,
@@ -701,7 +714,9 @@
 				BF5E21962529B75D0026AEDF /* Food.swift in Sources */,
 				BF5E219A2529B9A80026AEDF /* MainBuilder.swift in Sources */,
 				BF5E21602529753A0026AEDF /* EmployeeSearch.swift in Sources */,
+				BF56A194253C1EA300D7E957 /* MainBridge.swift in Sources */,
 				BF5E21B6252AD0540026AEDF /* Backup.swift in Sources */,
+				BF56A18C253C1D2000D7E957 /* Comms.swift in Sources */,
 				BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */,
 				BF5E21922529B6F90026AEDF /* Builder.swift in Sources */,
 			);
@@ -717,6 +732,7 @@
 				BF5E219E2529BA170026AEDF /* BuilderTests.swift in Sources */,
 				BF5E20E525296BDA0026AEDF /* SwiftDesignPatternsTests.swift in Sources */,
 				BF5E214225296F9B0026AEDF /* IteratorTest.swift in Sources */,
+				BF56A198253C1F1F00D7E957 /* BridgeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
