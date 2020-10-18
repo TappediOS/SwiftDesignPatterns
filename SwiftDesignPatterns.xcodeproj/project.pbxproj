@@ -59,6 +59,7 @@
 		BF56A197253C1F1F00D7E957 /* BridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeTests.swift; sourceTree = "<group>"; };
 		BF56A19B253C1FF700D7E957 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		BF56A19F253C219D00D7E957 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		BF56A1A3253C5C5C00D7E957 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF5E20CE25296BD80026AEDF /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5E20D125296BD90026AEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5E20D325296BD90026AEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -311,6 +312,7 @@
 				BF56A193253C1EA300D7E957 /* MainBridge.swift */,
 				BF56A19F253C219D00D7E957 /* Bridge.swift */,
 				BF56A19B253C1FF700D7E957 /* Messages.swift */,
+				BF56A1A3253C5C5C00D7E957 /* README.md */,
 			);
 			path = Bridge;
 			sourceTree = "<group>";
