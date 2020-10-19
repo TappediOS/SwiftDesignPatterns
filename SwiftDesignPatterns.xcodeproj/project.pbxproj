@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF56A1AF253D4A3000D7E957 /* CarParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1AE253D4A3000D7E957 /* CarParts.swift */; };
+		BF56A1B3253D4A9D00D7E957 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1B2253D4A9D00D7E957 /* Order.swift */; };
+		BF56A1B7253D4C9500D7E957 /* CompositeMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1B6253D4C9500D7E957 /* CompositeMain.swift */; };
+		BF56A1BB253D4D5A00D7E957 /* CompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1BA253D4D5A00D7E957 /* CompositeTests.swift */; };
 		BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D125296BD90026AEDF /* AppDelegate.swift */; };
 		BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D325296BD90026AEDF /* ViewController.swift */; };
 		BF5E20D625296BDA0026AEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5E20D525296BDA0026AEDF /* Assets.xcassets */; };
@@ -47,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF56A1AE253D4A3000D7E957 /* CarParts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarParts.swift; sourceTree = "<group>"; };
+		BF56A1B2253D4A9D00D7E957 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		BF56A1B6253D4C9500D7E957 /* CompositeMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeMain.swift; sourceTree = "<group>"; };
+		BF56A1BA253D4D5A00D7E957 /* CompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeTests.swift; sourceTree = "<group>"; };
 		BF5E20CE25296BD80026AEDF /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5E20D125296BD90026AEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5E20D325296BD90026AEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -231,6 +239,9 @@
 		BF5E210525296D180026AEDF /* Composite */ = {
 			isa = PBXGroup;
 			children = (
+				BF56A1AE253D4A3000D7E957 /* CarParts.swift */,
+				BF56A1B2253D4A9D00D7E957 /* Order.swift */,
+				BF56A1B6253D4C9500D7E957 /* CompositeMain.swift */,
 			);
 			path = Composite;
 			sourceTree = "<group>";
@@ -565,6 +576,7 @@
 		BF5E213625296EC60026AEDF /* Composite */ = {
 			isa = PBXGroup;
 			children = (
+				BF56A1BA253D4D5A00D7E957 /* CompositeTests.swift */,
 			);
 			name = Composite;
 			path = SwiftDesignPatterns/Composite;
@@ -690,9 +702,12 @@
 				BF5E2165252977530026AEDF /* AdapterMain.swift in Sources */,
 				BF5E21A7252AC5060026AEDF /* RentalCar.swift in Sources */,
 				BF5E2150252972230026AEDF /* Employees.swift in Sources */,
+				BF56A1AF253D4A3000D7E957 /* CarParts.swift in Sources */,
+				BF56A1B3253D4A9D00D7E957 /* Order.swift in Sources */,
 				BF5E218325298CA50026AEDF /* TemplateMethodMain.swift in Sources */,
 				BF5E217F2529892A0026AEDF /* Doners.swift in Sources */,
 				BF5E21BA252AD15E0026AEDF /* MainSingleton.swift in Sources */,
+				BF56A1B7253D4C9500D7E957 /* CompositeMain.swift in Sources */,
 				BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */,
 				BF5E21B2252ACF290026AEDF /* Logger.swift in Sources */,
 				BF5E215B252972A10026AEDF /* DataSources.swift in Sources */,
@@ -711,6 +726,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF56A1BB253D4D5A00D7E957 /* CompositeTests.swift in Sources */,
 				BF5E218925298E8F0026AEDF /* TemplateMethodTests.swift in Sources */,
 				BF5E21BE252AD2810026AEDF /* SingletonTests.swift in Sources */,
 				BF5E216D2529785F0026AEDF /* AdapterTests.swift in Sources */,
