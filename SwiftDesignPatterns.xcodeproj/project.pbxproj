@@ -55,6 +55,7 @@
 		BF56A1B2253D4A9D00D7E957 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		BF56A1B6253D4C9500D7E957 /* CompositeMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeMain.swift; sourceTree = "<group>"; };
 		BF56A1BA253D4D5A00D7E957 /* CompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeTests.swift; sourceTree = "<group>"; };
+		BF56A1BE253D51D500D7E957 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF5E20CE25296BD80026AEDF /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5E20D125296BD90026AEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5E20D325296BD90026AEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -239,6 +240,7 @@
 		BF5E210525296D180026AEDF /* Composite */ = {
 			isa = PBXGroup;
 			children = (
+				BF56A1BE253D51D500D7E957 /* README.md */,
 				BF56A1AE253D4A3000D7E957 /* CarParts.swift */,
 				BF56A1B2253D4A9D00D7E957 /* Order.swift */,
 				BF56A1B6253D4C9500D7E957 /* CompositeMain.swift */,
