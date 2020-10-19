@@ -307,12 +307,12 @@
 		BF5E210C25296D1B0026AEDF /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
+				BF56A1A3253C5C5C00D7E957 /* README.md */,
 				BF56A18B253C1D2000D7E957 /* Comms.swift */,
 				BF56A18F253C1E1100D7E957 /* Channel.swift */,
 				BF56A193253C1EA300D7E957 /* MainBridge.swift */,
 				BF56A19F253C219D00D7E957 /* Bridge.swift */,
 				BF56A19B253C1FF700D7E957 /* Messages.swift */,
-				BF56A1A3253C5C5C00D7E957 /* README.md */,
 			);
 			path = Bridge;
 			sourceTree = "<group>";
