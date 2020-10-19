@@ -5,7 +5,12 @@
 //  Created by jun on 2020/10/19.
 //
 
-class Part {
+protocol CarPart {
+    var name: String { get }
+    var price: Float { get }
+}
+
+class Part: CarPart {
     let name: String
     let price: Float
     
@@ -15,11 +20,17 @@ class Part {
     }
 }
 
-class CompositePart {
+class CompositePart: CarPart {
     let name: String
-    let parts: [Part]
+    let parts: [CarPart]
     
-    init(name: String, parts: [Part]) {
+    var price: Float {
+        return self.parts.reduce(0) { (subtotal: Float, part: CarPart) in
+            return subtotal + part.price
+        }
+    }
+    
+    init(name: String, parts: [CarPart]) {
         self.name = name
         self.parts = parts
     }

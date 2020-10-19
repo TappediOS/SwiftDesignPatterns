@@ -19,7 +19,7 @@ class CompositeTests: XCTestCase {
     }
 
     func testMain() {
-        let exp = "Order for bob: Cost: 9986.0"
+        let exp = "Order for bob: Cost: 10066.0"
         
         XCTAssertEqual(CompositeMain.main(), exp)
     }
