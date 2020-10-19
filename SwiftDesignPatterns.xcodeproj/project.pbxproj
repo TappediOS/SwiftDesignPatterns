@@ -13,6 +13,7 @@
 		BF56A198253C1F1F00D7E957 /* BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A197253C1F1F00D7E957 /* BridgeTests.swift */; };
 		BF56A19C253C1FF700D7E957 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A19B253C1FF700D7E957 /* Messages.swift */; };
 		BF56A1A0253C219D00D7E957 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A19F253C219D00D7E957 /* Bridge.swift */; };
+
 		BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D125296BD90026AEDF /* AppDelegate.swift */; };
 		BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D325296BD90026AEDF /* ViewController.swift */; };
 		BF5E20D625296BDA0026AEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5E20D525296BDA0026AEDF /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 		BF56A19B253C1FF700D7E957 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		BF56A19F253C219D00D7E957 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
 		BF56A1A3253C5C5C00D7E957 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+
 		BF5E20CE25296BD80026AEDF /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5E20D125296BD90026AEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5E20D325296BD90026AEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -251,6 +253,12 @@
 		BF5E210625296D190026AEDF /* Abstract Factory */ = {
 			isa = PBXGroup;
 			children = (
+				BF56A1702539D66C00D7E957 /* AbstractFactory.swift */,
+				BF56A174253ADA1500D7E957 /* Floorplans.swift */,
+				BF56A178253ADB4D00D7E957 /* Suspension.swift */,
+				BF56A17C253ADC2900D7E957 /* Drivetrans.swift */,
+				BF56A180253ADD3600D7E957 /* CarParts.swift */,
+				BF56A188253AE1A500D7E957 /* README.md */,
 			);
 			path = "Abstract Factory";
 			sourceTree = "<group>";
@@ -535,6 +543,7 @@
 		BF5E213025296EC60026AEDF /* Abstract Factory */ = {
 			isa = PBXGroup;
 			children = (
+				BF56A184253ADE6700D7E957 /* AbstractFactoryTests.swift */,
 			);
 			name = "Abstract Factory";
 			path = "SwiftDesignPatterns/Abstract Factory";
@@ -705,6 +714,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF56A175253ADA1500D7E957 /* Floorplans.swift in Sources */,
+				BF56A181253ADD3600D7E957 /* CarParts.swift in Sources */,
+				BF56A17D253ADC2900D7E957 /* Drivetrans.swift in Sources */,
 				BF5E213A25296F910026AEDF /* Iterator.swift in Sources */,
 				BF56A19C253C1FF700D7E957 /* Messages.swift in Sources */,
 				BF5E214A252970930026AEDF /* Adapter.swift in Sources */,
@@ -716,9 +728,11 @@
 				BF56A190253C1E1100D7E957 /* Channel.swift in Sources */,
 				BF5E21BA252AD15E0026AEDF /* MainSingleton.swift in Sources */,
 				BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */,
+				BF56A179253ADB4D00D7E957 /* Suspension.swift in Sources */,
 				BF5E21B2252ACF290026AEDF /* Logger.swift in Sources */,
 				BF5E215B252972A10026AEDF /* DataSources.swift in Sources */,
 				BF5E21AB252AC74C0026AEDF /* CarSelecter.swift in Sources */,
+				BF56A1712539D66C00D7E957 /* AbstractFactory.swift in Sources */,
 				BF5E2176252979DA0026AEDF /* NewCo.swift in Sources */,
 				BF5E21962529B75D0026AEDF /* Food.swift in Sources */,
 				BF5E219A2529B9A80026AEDF /* MainBuilder.swift in Sources */,
@@ -738,6 +752,7 @@
 			files = (
 				BF5E218925298E8F0026AEDF /* TemplateMethodTests.swift in Sources */,
 				BF5E21BE252AD2810026AEDF /* SingletonTests.swift in Sources */,
+				BF56A185253ADE6700D7E957 /* AbstractFactoryTests.swift in Sources */,
 				BF5E216D2529785F0026AEDF /* AdapterTests.swift in Sources */,
 				BF5E219E2529BA170026AEDF /* BuilderTests.swift in Sources */,
 				BF5E20E525296BDA0026AEDF /* SwiftDesignPatternsTests.swift in Sources */,

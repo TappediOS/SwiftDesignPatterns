@@ -7,8 +7,10 @@
 
 ### メリットは
 
-フレームワークのみを作成して他の開発者がそれを使える様になる
-
+- フレームワークのみを作成して他の開発者がそれを使える様になる
+- ロジックが共通化できる。
+- アルゴリズムに不具合があった場合にテンプレートメゾットのみを修正したらいい
+- テンプレートメゾットの実装を知った上でサブクラスで実装する必要がある。
 
 ### 視点
 
@@ -28,7 +30,7 @@ class HogeCell: UICollectionViewCell {
     
     override func awakeFromNib() { }
     
-    @IBAction func tapRadioButton(_ sender: Any) {
+    @IBAction func tapButton(_ sender: Any) {
         self.buttonAction?()
     }
 }
