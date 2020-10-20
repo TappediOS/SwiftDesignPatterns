@@ -16,7 +16,7 @@
 		BF56A1E0253D591200D7E957 /* Suspension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1D9253D591200D7E957 /* Suspension.swift */; };
 		BF56A1E1253D591300D7E957 /* AbstractFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1DA253D591200D7E957 /* AbstractFactoryTests.swift */; };
 		BF56A1E2253D591300D7E957 /* Floorplans.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1DB253D591200D7E957 /* Floorplans.swift */; };
-		BF56A1E3253D591300D7E957 /* CarParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1DC253D591200D7E957 /* CarParts.swift */; };
+		BF56A1E3253D591300D7E957 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1DC253D591200D7E957 /* Cars.swift */; };
 		BF56A1E4253D591300D7E957 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1DD253D591200D7E957 /* AbstractFactory.swift */; };
 		BF56A1EE253D591E00D7E957 /* Comms.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1E7253D591E00D7E957 /* Comms.swift */; };
 		BF56A1EF253D591E00D7E957 /* BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1E8253D591E00D7E957 /* BridgeTests.swift */; };
@@ -77,7 +77,7 @@
 		BF56A1D9253D591200D7E957 /* Suspension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suspension.swift; sourceTree = "<group>"; };
 		BF56A1DA253D591200D7E957 /* AbstractFactoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactoryTests.swift; sourceTree = "<group>"; };
 		BF56A1DB253D591200D7E957 /* Floorplans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floorplans.swift; sourceTree = "<group>"; };
-		BF56A1DC253D591200D7E957 /* CarParts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarParts.swift; sourceTree = "<group>"; };
+		BF56A1DC253D591200D7E957 /* Cars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
 		BF56A1DD253D591200D7E957 /* AbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		BF56A1E7253D591E00D7E957 /* Comms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comms.swift; sourceTree = "<group>"; };
 		BF56A1E8253D591E00D7E957 /* BridgeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeTests.swift; sourceTree = "<group>"; };
@@ -285,7 +285,7 @@
 			children = (
 				BF56A1DD253D591200D7E957 /* AbstractFactory.swift */,
 				BF56A1DA253D591200D7E957 /* AbstractFactoryTests.swift */,
-				BF56A1DC253D591200D7E957 /* CarParts.swift */,
+				BF56A1DC253D591200D7E957 /* Cars.swift */,
 				BF56A1D8253D591200D7E957 /* Drivetrans.swift */,
 				BF56A1DB253D591200D7E957 /* Floorplans.swift */,
 				BF56A1D7253D591200D7E957 /* README.md */,
@@ -779,7 +779,7 @@
 				BF56A1E4253D591300D7E957 /* AbstractFactory.swift in Sources */,
 				BF5E219A2529B9A80026AEDF /* MainBuilder.swift in Sources */,
 				BF5E21602529753A0026AEDF /* EmployeeSearch.swift in Sources */,
-				BF56A1E3253D591300D7E957 /* CarParts.swift in Sources */,
+				BF56A1E3253D591300D7E957 /* Cars.swift in Sources */,
 				BF5E21B6252AD0540026AEDF /* Backup.swift in Sources */,
 				BF56A1E2253D591300D7E957 /* Floorplans.swift in Sources */,
 				BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */,
