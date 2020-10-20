@@ -51,6 +51,7 @@
 		BF5E21B6252AD0540026AEDF /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21B5252AD0530026AEDF /* Backup.swift */; };
 		BF5E21BA252AD15E0026AEDF /* MainSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21B9252AD15E0026AEDF /* MainSingleton.swift */; };
 		BF5E21BE252AD2810026AEDF /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21BD252AD2810026AEDF /* SingletonTests.swift */; };
+		BFF4CE5B253F22600070D4E5 /* StrategyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4CE5A253F22600070D4E5 /* StrategyTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		BF5E21BD252AD2810026AEDF /* SingletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTests.swift; sourceTree = "<group>"; };
 		BF5E21C1252AD3220026AEDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BFF4CE53253F21780070D4E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BFF4CE5A253F22600070D4E5 /* StrategyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -454,6 +456,7 @@
 		BF5E212225296EC60026AEDF /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
+				BFF4CE5A253F22600070D4E5 /* StrategyTests.swift */,
 			);
 			name = Strategy;
 			path = SwiftDesignPatterns/Strategy;
@@ -786,6 +789,7 @@
 				BF5E218925298E8F0026AEDF /* TemplateMethodTests.swift in Sources */,
 				BF5E21BE252AD2810026AEDF /* SingletonTests.swift in Sources */,
 				BF5E216D2529785F0026AEDF /* AdapterTests.swift in Sources */,
+				BFF4CE5B253F22600070D4E5 /* StrategyTests.swift in Sources */,
 				BF5E219E2529BA170026AEDF /* BuilderTests.swift in Sources */,
 				BF5E20E525296BDA0026AEDF /* SwiftDesignPatternsTests.swift in Sources */,
 				BF5E214225296F9B0026AEDF /* IteratorTest.swift in Sources */,

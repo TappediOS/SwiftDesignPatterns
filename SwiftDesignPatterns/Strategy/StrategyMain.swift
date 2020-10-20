@@ -5,9 +5,12 @@
 //  Created by jun on 2020/10/20.
 //
 
-class StrategyMain {
+class MainStrategy {
     static func main() -> String {
-        let seq = Sequence([1, 2, 3, 4])
-        seq.addNum
+        let seq = Sequence(nums: [1, 2, 3, 4])
+        seq.addNum(value: 10)
+        seq.addNum(value: 20)
+        
+        return String(seq.compute())
     }
 }

@@ -13,10 +13,10 @@ class Sequence {
     }
     
     func addNum(value: Int) {
-        self.nums.appen(nums)
+        self.nums.append(value)
     }
     
     func compute() -> Int {
-        reurn nums.redune(0, +)
+        return self.nums.reduce(0, +)
     }
 }
