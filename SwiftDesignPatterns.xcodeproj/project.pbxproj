@@ -25,6 +25,7 @@
 		BF56A1F2253D591E00D7E957 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BF56A1EB253D591E00D7E957 /* README.md */; };
 		BF56A1F3253D591E00D7E957 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1EC253D591E00D7E957 /* Channel.swift */; };
 		BF56A1F4253D591E00D7E957 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1ED253D591E00D7E957 /* Bridge.swift */; };
+		BF56A1FC253F1E0100D7E957 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1FB253F1E0100D7E957 /* Sequence.swift */; };
 		BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D125296BD90026AEDF /* AppDelegate.swift */; };
 		BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E20D325296BD90026AEDF /* ViewController.swift */; };
 		BF5E20D625296BDA0026AEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5E20D525296BDA0026AEDF /* Assets.xcassets */; };
@@ -84,6 +85,7 @@
 		BF56A1EB253D591E00D7E957 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF56A1EC253D591E00D7E957 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		BF56A1ED253D591E00D7E957 /* Bridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		BF56A1FB253F1E0100D7E957 /* Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
 		BF5E20CE25296BD80026AEDF /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5E20D125296BD90026AEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5E20D325296BD90026AEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -356,6 +358,7 @@
 		BF5E210D25296D880026AEDF /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
+				BF56A1FB253F1E0100D7E957 /* Sequence.swift */,
 			);
 			path = Strategy;
 			sourceTree = "<group>";
@@ -766,6 +769,7 @@
 				BF56A1E1253D591300D7E957 /* AbstractFactoryTests.swift in Sources */,
 				BF5E215B252972A10026AEDF /* DataSources.swift in Sources */,
 				BF5E21AB252AC74C0026AEDF /* CarSelecter.swift in Sources */,
+				BF56A1FC253F1E0100D7E957 /* Sequence.swift in Sources */,
 				BF5E2176252979DA0026AEDF /* NewCo.swift in Sources */,
 				BF5E21962529B75D0026AEDF /* Food.swift in Sources */,
 				BF56A1E4253D591300D7E957 /* AbstractFactory.swift in Sources */,
