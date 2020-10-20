@@ -11,15 +11,12 @@
 		BF56A1B3253D4A9D00D7E957 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1B2253D4A9D00D7E957 /* Order.swift */; };
 		BF56A1B7253D4C9500D7E957 /* CompositeMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1B6253D4C9500D7E957 /* CompositeMain.swift */; };
 		BF56A1BB253D4D5A00D7E957 /* CompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1BA253D4D5A00D7E957 /* CompositeTests.swift */; };
-		BF56A1DE253D591200D7E957 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BF56A1D7253D591200D7E957 /* README.md */; };
 		BF56A1DF253D591200D7E957 /* Drivetrans.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1D8253D591200D7E957 /* Drivetrans.swift */; };
 		BF56A1E0253D591200D7E957 /* Suspension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1D9253D591200D7E957 /* Suspension.swift */; };
-		BF56A1E1253D591300D7E957 /* AbstractFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1DA253D591200D7E957 /* AbstractFactoryTests.swift */; };
 		BF56A1E2253D591300D7E957 /* Floorplans.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1DB253D591200D7E957 /* Floorplans.swift */; };
 		BF56A1E3253D591300D7E957 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1DC253D591200D7E957 /* Cars.swift */; };
 		BF56A1E4253D591300D7E957 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1DD253D591200D7E957 /* AbstractFactory.swift */; };
 		BF56A1EE253D591E00D7E957 /* Comms.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1E7253D591E00D7E957 /* Comms.swift */; };
-		BF56A1EF253D591E00D7E957 /* BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1E8253D591E00D7E957 /* BridgeTests.swift */; };
 		BF56A1F0253D591E00D7E957 /* MainBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1E9253D591E00D7E957 /* MainBridge.swift */; };
 		BF56A1F1253D591E00D7E957 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56A1EA253D591E00D7E957 /* Messages.swift */; };
 		BF56A1F2253D591E00D7E957 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BF56A1EB253D591E00D7E957 /* README.md */; };
@@ -72,15 +69,12 @@
 		BF56A1B6253D4C9500D7E957 /* CompositeMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeMain.swift; sourceTree = "<group>"; };
 		BF56A1BA253D4D5A00D7E957 /* CompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeTests.swift; sourceTree = "<group>"; };
 		BF56A1BE253D51D500D7E957 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BF56A1D7253D591200D7E957 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF56A1D8253D591200D7E957 /* Drivetrans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drivetrans.swift; sourceTree = "<group>"; };
 		BF56A1D9253D591200D7E957 /* Suspension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suspension.swift; sourceTree = "<group>"; };
-		BF56A1DA253D591200D7E957 /* AbstractFactoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactoryTests.swift; sourceTree = "<group>"; };
 		BF56A1DB253D591200D7E957 /* Floorplans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floorplans.swift; sourceTree = "<group>"; };
 		BF56A1DC253D591200D7E957 /* Cars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
 		BF56A1DD253D591200D7E957 /* AbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		BF56A1E7253D591E00D7E957 /* Comms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comms.swift; sourceTree = "<group>"; };
-		BF56A1E8253D591E00D7E957 /* BridgeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeTests.swift; sourceTree = "<group>"; };
 		BF56A1E9253D591E00D7E957 /* MainBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBridge.swift; sourceTree = "<group>"; };
 		BF56A1EA253D591E00D7E957 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		BF56A1EB253D591E00D7E957 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -125,6 +119,7 @@
 		BF5E21B9252AD15E0026AEDF /* MainSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSingleton.swift; sourceTree = "<group>"; };
 		BF5E21BD252AD2810026AEDF /* SingletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTests.swift; sourceTree = "<group>"; };
 		BF5E21C1252AD3220026AEDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BFF4CE53253F21780070D4E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,12 +279,11 @@
 			isa = PBXGroup;
 			children = (
 				BF56A1DD253D591200D7E957 /* AbstractFactory.swift */,
-				BF56A1DA253D591200D7E957 /* AbstractFactoryTests.swift */,
 				BF56A1DC253D591200D7E957 /* Cars.swift */,
 				BF56A1D8253D591200D7E957 /* Drivetrans.swift */,
 				BF56A1DB253D591200D7E957 /* Floorplans.swift */,
-				BF56A1D7253D591200D7E957 /* README.md */,
 				BF56A1D9253D591200D7E957 /* Suspension.swift */,
+				BFF4CE53253F21780070D4E5 /* README.md */,
 			);
 			path = "Abstract Factory";
 			sourceTree = "<group>";
@@ -347,7 +341,6 @@
 			isa = PBXGroup;
 			children = (
 				BF56A1ED253D591E00D7E957 /* Bridge.swift */,
-				BF56A1E8253D591E00D7E957 /* BridgeTests.swift */,
 				BF56A1EC253D591E00D7E957 /* Channel.swift */,
 				BF56A1E7253D591E00D7E957 /* Comms.swift */,
 				BF56A1E9253D591E00D7E957 /* MainBridge.swift */,
@@ -728,7 +721,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF56A1DE253D591200D7E957 /* README.md in Resources */,
 				BF5E20D625296BDA0026AEDF /* Assets.xcassets in Resources */,
 				BF56A1F2253D591E00D7E957 /* README.md in Resources */,
 				BF5E20D925296BDA0026AEDF /* Main.storyboard in Resources */,
@@ -770,7 +762,6 @@
 				BF56A1B7253D4C9500D7E957 /* CompositeMain.swift in Sources */,
 				BF5E20D425296BD90026AEDF /* ViewController.swift in Sources */,
 				BF5E21B2252ACF290026AEDF /* Logger.swift in Sources */,
-				BF56A1E1253D591300D7E957 /* AbstractFactoryTests.swift in Sources */,
 				BF5E215B252972A10026AEDF /* DataSources.swift in Sources */,
 				BF5E21AB252AC74C0026AEDF /* CarSelecter.swift in Sources */,
 				BF56A1FC253F1E0100D7E957 /* Sequence.swift in Sources */,
@@ -783,7 +774,6 @@
 				BF5E21B6252AD0540026AEDF /* Backup.swift in Sources */,
 				BF56A1E2253D591300D7E957 /* Floorplans.swift in Sources */,
 				BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */,
-				BF56A1EF253D591E00D7E957 /* BridgeTests.swift in Sources */,
 				BF5E21922529B6F90026AEDF /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
