@@ -14,6 +14,12 @@ class MainStrategy {
         let sumStra = SumStrategy()
         _ = MultiStrategy()
         
+        let cstrategy = ClosureStrategy(closure: { (values: [Int]) -> Int in
+            values.map { $0 * 2 }.reduce(0, +)
+        })
+        
+        print(seq.compute(strategy: cstrategy))
+        
         return String(seq.compute(strategy: sumStra))
     }
 }
