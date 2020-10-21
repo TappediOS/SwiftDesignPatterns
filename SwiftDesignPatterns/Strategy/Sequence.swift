@@ -16,7 +16,7 @@ class Sequence {
         self.nums.append(value)
     }
     
-    func compute() -> Int {
-        return self.nums.reduce(0, +)
+    func compute(strategy: Strategy) -> Int {
+        return strategy.execute(value: self.nums)
     }
 }

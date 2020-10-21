@@ -52,6 +52,7 @@
 		BF5E21BA252AD15E0026AEDF /* MainSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21B9252AD15E0026AEDF /* MainSingleton.swift */; };
 		BF5E21BE252AD2810026AEDF /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E21BD252AD2810026AEDF /* SingletonTests.swift */; };
 		BFF4CE5B253F22600070D4E5 /* StrategyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4CE5A253F22600070D4E5 /* StrategyTests.swift */; };
+		BFF4CE5F253FD0420070D4E5 /* trategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4CE5E253FD0420070D4E5 /* trategy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,7 @@
 		BF5E21C1252AD3220026AEDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BFF4CE53253F21780070D4E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BFF4CE5A253F22600070D4E5 /* StrategyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyTests.swift; sourceTree = "<group>"; };
+		BFF4CE5E253FD0420070D4E5 /* trategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,6 +359,7 @@
 			children = (
 				BF56A1FB253F1E0100D7E957 /* Sequence.swift */,
 				BF56A1FF253F1E7D00D7E957 /* StrategyMain.swift */,
+				BFF4CE5E253FD0420070D4E5 /* trategy.swift */,
 			);
 			path = Strategy;
 			sourceTree = "<group>";
@@ -775,6 +778,7 @@
 				BF5E21602529753A0026AEDF /* EmployeeSearch.swift in Sources */,
 				BF56A1E3253D591300D7E957 /* Cars.swift in Sources */,
 				BF5E21B6252AD0540026AEDF /* Backup.swift in Sources */,
+				BFF4CE5F253FD0420070D4E5 /* trategy.swift in Sources */,
 				BF56A1E2253D591300D7E957 /* Floorplans.swift in Sources */,
 				BF5E20D225296BD90026AEDF /* AppDelegate.swift in Sources */,
 				BF5E21922529B6F90026AEDF /* Builder.swift in Sources */,

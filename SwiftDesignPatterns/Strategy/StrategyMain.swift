@@ -11,6 +11,9 @@ class MainStrategy {
         seq.addNum(value: 10)
         seq.addNum(value: 20)
         
-        return String(seq.compute())
+        let sumStra = SumStrategy()
+        _ = MultiStrategy()
+        
+        return String(seq.compute(strategy: sumStra))
     }
 }
