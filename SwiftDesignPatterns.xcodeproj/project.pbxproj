@@ -124,6 +124,7 @@
 		BFF4CE53253F21780070D4E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BFF4CE5A253F22600070D4E5 /* StrategyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyTests.swift; sourceTree = "<group>"; };
 		BFF4CE5E253FD0420070D4E5 /* trategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trategy.swift; sourceTree = "<group>"; };
+		BFF4CE62253FD2F70070D4E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,6 +358,7 @@
 		BF5E210D25296D880026AEDF /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
+				BFF4CE62253FD2F70070D4E5 /* README.md */,
 				BF56A1FB253F1E0100D7E957 /* Sequence.swift */,
 				BF56A1FF253F1E7D00D7E957 /* StrategyMain.swift */,
 				BFF4CE5E253FD0420070D4E5 /* trategy.swift */,
